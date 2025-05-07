@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+
+
+#div1 > p{
+    font-family: sans-serif;
+    font-weight: bold;
+    display: none; /*Faz o texto sumir*/
+}
+
+#div1:hover > p{
+    display: block;/*Faz ele aparecer assim que o mouse passe sobre a div*/
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+#div3{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    border: none;
+}
+
+/*Teste das Pseudo classes*/
+
+#div1:active{
+    background-color: black;
+}
+
+#div2:hover{
+    background-color: black;
+}
+
+#div3:focus{
+    background-color: black;
+}

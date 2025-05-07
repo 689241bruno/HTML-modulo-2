@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(238, 238, 197);
+}
+
+header{
+    height: 150px;
+    background-image: linear-gradient(to top, rgb(3, 48, 3), rgb(25, 148, 3));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+header > h1, header > p{
+    margin-top: 10px;
+    text-align: center;
+}
+
+header > nav> ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+header > nav > ul > li{
+    padding: 10px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+header > nav > ul > li:hover{
+    cursor: pointer;
+    background-color: rgb(4, 184, 4);
+    color: rgb(1, 72, 1);
+    border-radius: 10px;
+}
+
+
+main{
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.616);
+    padding: 40px;
+}
+
+main h1{
+    color: rgb(3, 116, 3);
+}
+
+main  p{
+    text-indent: 15px;
+    margin: 20px;
+}
+
+main > section > h2{
+    padding-left: 10px;
+    color: rgb(3, 116, 3);
+    background-image: linear-gradient(to right, #b7f5b7, transparent);
+}
+
+main span{
+    font-weight: bold;
+    color: rgb(3, 116, 3);
+}
+
+img {
+    width: 100%;
+    margin: auto;
+}
+
+#bugdroid {
+    width: 40%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+main > section > p > a, main > section > article > p > a{
+    padding: 3px;
+    color: rgb(3, 116, 3);
+    background-image: linear-gradient(to right, #b7f5b7 60%, transparent);
+    font-weight: bold;
+    color: rgb(3, 116, 3);
+    text-decoration: none;
+}
+
+main > section > p > a::after, main > section > article > p > a::after{
+    content: '🔗';
+}
+
+section > div{
+    display: flex;
+    width: 100;
+    background-color: rgb(1, 72, 1);
+
+}
+section > div > iframe{
+    margin-top: 40px;
+    outline: 40px solid rgb(1, 72, 1);
+    margin-bottom: 40px;
+}
+
+
+main > section > h3{
+    margin-top: 15px;
+    margin-bottom: 0;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+}
+
+main > section > article{
+    margin-top: 0px;
+    background-color: rgb(215, 246, 215);
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+main > section > article > section{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 40px;
+    gap: 30px;
+}
+
+main > section > article > section > ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+footer{
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(1, 32, 1);
+}

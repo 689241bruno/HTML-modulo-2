@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.my-button{
+    padding: 20px;
+}
+
+.my-button:hover{
+    background-color: red;
+}
+
+.my-button:focus{
+    background-color: darkred;
+    border: 3px solid orange;
+}
+
+.my-paragraph::before{
+    content: '👉';
+}
+
+.my-paragraph::after{
+    content: '🌟';
+}
